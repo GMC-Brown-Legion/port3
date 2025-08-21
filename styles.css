@@ -1,0 +1,25 @@
+    :root {
+      --navy-blue: #1B263B;
+      --rust-brown: #8B3A2B;
+    }
+    .bg-navy-blue {
+      background-color: var(--navy-blue);
+    }
+    .text-navy-blue {
+      color: var(--navy-blue);
+    }
+    .bg-rust-brown {
+      background-color: var(--rust-brown);
+    }
+    .text-rust-brown {
+      color: var(--rust-brown);
+    }
+    .hover\:bg-navy-blue:hover {
+      background-color: var(--navy-blue);
+    }
+    .hover\:text-rust-brown:hover {
+      color: var(--rust-brown);
+    }
+    .focus\:ring-rust-brown:focus {
+      --tw-ring-color: var(--rust-brown);
+    }
